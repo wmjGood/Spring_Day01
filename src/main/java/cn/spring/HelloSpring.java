@@ -4,15 +4,15 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class HelloSpring {
+
+    private String who=null;
     public String getWho() {
         return who;
     }
-
     public void setWho(String who) {
         this.who = who;
     }
-
-    private String who=null;
+     //wumengjie
 
     public  void  print(){
         System.out.println("hello,"+getWho());
