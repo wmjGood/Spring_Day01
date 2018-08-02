@@ -13,7 +13,7 @@ public class HelloSpring {
         this.who = who;
     }
      //wumengjie
-
+     //吴梦洁
     public  void  print(){
         System.out.println("hello,"+getWho());
     }
